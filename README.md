@@ -1,2 +1,3 @@
 # site_marion_lheritier
- site vitrine avec formulaire
+ site vitrine responsive avec formulaire
+ HTML5/CSS3/Js/Materialize/PHP
