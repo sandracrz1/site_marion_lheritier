@@ -123,6 +123,7 @@ header {
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
 /*slider with pagination*/
 .swiper-container {
     width: 100%;
@@ -140,24 +141,30 @@ header {
     color: black;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
     color: #414141;
 }
+
 /*button hidden scene theatre content*/
-.button a, .button_close a {
+.button a,
+.button_close a {
     background-color: #efefef;
     color: black;
 }
 
-.button a:hover, .button_close a:hover {
+.button a:hover,
+.button_close a:hover {
     background-color: #aaaaaa;
     color: #fff;
 }
 
-.button, .button_close {
+.button,
+.button_close {
     padding: 50px 0;
-    font-weight: 550;
+    font-weight: 600;
 }
+
 /*scene*/
 .scene_content_hidden {
     width: 100%;
@@ -171,7 +178,8 @@ header {
     transition: all ease-out 0.2s;
 }
 
-#scene, #contact {
+#scene,
+#contact {
     text-align: center;
     margin-top: 20px;
     background-color: black;
@@ -191,21 +199,24 @@ header {
     color: #adadad;
 }
 
-.scene .scene_date, .theatre .theatre_date {
+.scene .scene_date,
+.theatre .theatre_date {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #f5f5f5;
 }
 
-.scene .scene_info, .theatre .theatre_info {
+.scene .scene_info,
+.theatre .theatre_info {
     padding-top: 20px;
     padding-bottom: 10px;
     font-size: 18px;
     color: #f5f5f5;
 }
 
-.scene .scene_place, .theatre .theatre_place {
+.scene .scene_place,
+.theatre .theatre_place {
     font-style: italic;
     font-size: 16px;
 }
@@ -221,8 +232,9 @@ header {
 }
 
 #photos {
-    padding-top:15px;
+    padding-top: 15px;
 }
+
 /*gallery_picture*/
 .gallery_picture {
     margin-top: 20px;
@@ -238,13 +250,15 @@ header {
     max-width: 100%;
     height: auto;
 }
+
 /*contact*/
 #contact {
-    background-color:white;
+    background-color: white;
     color: #414141;
 }
 
-#contact h3, #contact h4 {
+#contact h3,
+#contact h4 {
     font-family: 'Gelasio', serif;
     font-size: 21px;
     font-weight: 400;
@@ -287,10 +301,11 @@ header {
 .form-contact .input-field i.active {
     color: black;
 }
+
 .form-contact .input-field .comments {
     font-style: italic;
     font-size: 18px;
-    color:red;
+    color: red;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -316,9 +331,9 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 
 .thank-you {
-    background-color:  #d5d5d5;
+    background-color: #d5d5d5;
     font-style: italic;
-    padding-top:30px;
+    padding-top: 30px;
     padding-bottom: 25px;
 }
 
@@ -388,7 +403,8 @@ footer a {
         display: block;
     }
 
-    .menu-bigscreen, .nom_artiste_bigscreen {
+    .menu-bigscreen,
+    .nom_artiste_bigscreen {
         padding-left: 50px;
     }
 
@@ -477,7 +493,8 @@ footer a {
         color: #adadad;
     }
 
-    #biographie, #photos {
+    #biographie,
+    #photos {
         padding-top: 60px;
     }
 
@@ -488,7 +505,7 @@ footer a {
     #contact {
         padding-top: 30px;
     }
-    
+
     #biographie {
         padding-bottom: 30px;
     }

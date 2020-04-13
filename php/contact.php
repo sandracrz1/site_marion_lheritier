@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = TRUE;
             $mail->SMTPSecure = 'tls';
-            $mail->Username = 'sandrabaptistacruz@gmail.com';//adresse marion
+            $mail->Username = '#';//adresse marion
             $mail->Password = 'Helice1982';
             $mail->Port = 587;
             
@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
            $mail->setFrom($array["email"], $personn); //envoyeur
          
            /* Add a recipient. */
-           $mail->addAddress("sandrabaptistacruz@gmail.com");//destinataire adresse marion
+           $mail->addAddress("#");//destinataire adresse marion
            $mail->addReplyTo($array["email"], $personn); // L'adresse de réponse
          
            $mail->isHTML(true);
